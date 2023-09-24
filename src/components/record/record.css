@@ -60,14 +60,13 @@
     background-color: white;
     border: 2px solid #f5c104;
 	padding: 25px;
-	border-radius: 5px;
+	border-radius: 15px;
 }
 
 .timeline-content:hover{
     background-color: #f5c104;
     border: 2px solid #f5c104;
 	padding: 25px;
-	border-radius: 5px;
 }
 .timeline-content:hover h3{
     color:white;
