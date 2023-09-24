@@ -2,13 +2,14 @@ import React from "react"
 import "./home.css"
 import hero from "../pic/hero.jpg"
 import cv from "../pic/cv.jpg"
+import back from "../pic/back.png"
 import { Typewriter, useTypewriter } from "react-simple-typewriter"
 
 
 const Home = () => {
   return (
 
-  <main id="home">
+  <main id="home" style={{ backgroundImage: `url(${back})` }}>
     <br></br>
     <br></br>
     <br></br>

@@ -15,7 +15,7 @@ class Project extends Component {
             <section className="products">
             <h2>My Projects</h2>
             <div className="all-products">
-              <div className="product" data-aos="zoom-in" data-aos-duration="2500">
+              <div className="product" data-aos="fade-up" data-aos-duration="2500">
               <img src={p1} />
                 <div className="product-info">
                   <h4 className="product-title">Personal Portfolio1</h4>
@@ -24,7 +24,7 @@ class Project extends Component {
                   </a>
                 </div>
               </div>
-              <div className="product" data-aos="zoom-in" data-aos-duration="2500">
+              <div className="product" data-aos="fade-up" data-aos-duration="2500">
                 <img src={p2} />
                 <div className="product-info">
                   <h4 className="product-title">Personal Portfolio2</h4>
@@ -33,7 +33,7 @@ class Project extends Component {
                   </a>
                 </div>
               </div>
-              <div className="product" data-aos="zoom-in" data-aos-duration="2500">
+              <div className="product" data-aos="fade-up" data-aos-duration="2500">
               <img src={p3} />
                 <div className="product-info">
                   <h4 className="product-title">Resume Website</h4>
@@ -42,7 +42,7 @@ class Project extends Component {
                   </a>
                 </div>
               </div>
-              <div className="product" data-aos="zoom-in" data-aos-duration="2500">
+              <div className="product" data-aos="fade-up" data-aos-duration="2500">
               <img src={p4} />
                 <div className="product-info">
                   <h4 className="product-title">Restaurant Project</h4>
