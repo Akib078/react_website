@@ -1,0 +1,82 @@
+/*  */
+  /* code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+   */
+   .containerp{
+    justify-content: center;
+    align-items: center;
+    /* margin: auto; */
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+   }
+  .App{
+    align-items: center;
+  }
+  .galleryItem img {
+    width: 100%;
+    height: 95%;
+    border: 15px solid white;
+    /* object-fit: cover; */
+  }
+  
+  .galleryContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    border: 0.5px solid rgb(213, 213, 213);
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    padding: 10px;
+  }
+  
+  .galleryWrapper {
+    padding: 5% 10%;
+  }
+  
+  .filterItem ul {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .filterItem ul button {
+    background: #ffffff;
+    /* border : 0.5px solid #d7d7d7; */
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    color: #f5c104;
+    padding: 8px 40px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 50px;
+  }
+  
+  .filterItem ul button:hover {
+    background: #f5c104;
+    color:white;
+    cursor: pointer;
+  }
+  
+  .galleryItem img {
+    border-radius: 5px;
+  }
+ 
+@media (max-width:768px) {
+    .galleryContainer{
+        grid-template-columns: 1fr;
+    }
+    .filterItem ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+ 
+    }
+
+}
