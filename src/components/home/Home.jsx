@@ -4,6 +4,10 @@ import hero from "../pic/hero.jpg"
 import cv from "../pic/cv.jpg"
 import back from "../pic/back.png"
 import { Typewriter, useTypewriter } from "react-simple-typewriter"
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+Aos.init();
+Aos.refresh();
 
 
 const Home = () => {
@@ -16,12 +20,12 @@ const Home = () => {
   <div className="container">
     <img src={hero} alt="" />
     <div className="hero-text">
-      <h1 style={{color:"#24262b"}}>Hello! I am Akib.</h1>
+      <h1 style={{color:"#24262b"}} data-aos="fade-right" data-aos-duration="1500">Hello! I am Akib.</h1>
       <h1 style={{color:"#24262b"}}>A<span> <Typewriter words={["Graphics Designer.", "Web Developer.", "Digital Marketer."]} loop cursor cursorStyle='|' typeSpeed={70} deleteSpeed={50} delaySpeed={1000} /></span></h1>
-      <p>
+      <p data-aos="fade-right" data-aos-duration="2000">
         Welcome to my personal portfolio. Hope you will like it!
       </p>
-      <a href={cv} download className="button">My Resume</a>
+      <a href={cv} download className="button" data-aos="fade-right" data-aos-duration="2500">My Resume</a>
     </div>
   </div>
 </main>
