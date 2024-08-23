@@ -30,7 +30,6 @@
 
 .product{
 	overflow: hidden;
-	background: #ffffff;
 	color: #24262b;
 	text-align: center;
 	width: 250px;
@@ -42,7 +41,8 @@
 	justify-content: center;
 	border-radius: 1.2rem;
 	margin: 2rem;
-	background-color: #fff7db;
+	background-color: #ffffff;
+	box-shadow: rgba(255, 200, 19, 0.25) 0px 5px 15px 0px;
     /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; */
 }
 
@@ -61,7 +61,8 @@
 	color: #ffffff;
 	display: inline-block;
 	text-decoration: none;
-	background-color: #f5c104;
+	background: rgb(245,193,4);
+background: linear-gradient(87deg, rgba(245,193,4,1) 9%, rgba(255,206,28,1) 50%, rgba(255,205,27,1) 100%);
 	padding: 1.2rem 3rem;
 	border-radius: 50px;
 	margin-top: 1rem;
@@ -71,6 +72,6 @@
 
 .product a:hover{
 	color: #24262b;
-    background-color: white;
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    background: white;
+    box-shadow: rgba(255, 187, 39, 0.35) 0px 5px 15px;
 }

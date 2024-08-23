@@ -58,14 +58,16 @@
 }
 .timeline-content{
     background-color: white;
-    border: 1px solid #f5c104;
+    /* border: 1px solid #f5c104; */
+	box-shadow: rgba(255, 200, 19, 0.25) 0px 5px 15px 0px;
 	padding: 25px;
 	border-radius: 15px;
 }
 
 .timeline-content:hover{
-    background-color: #f5c104;
-    border: 2px solid #f5c104;
+    background: rgb(245,193,4);
+background: linear-gradient(87deg, rgba(245,193,4,1) 9%, rgba(255,206,28,1) 50%, rgba(255,205,27,1) 100%);
+    /* border: 2px solid #f5c104; */
 	padding: 25px;
 }
 .timeline-content:hover h3{

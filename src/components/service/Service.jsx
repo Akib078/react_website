@@ -13,22 +13,22 @@ const Service = () => {
     <h2 className="title">Skills</h2>
     <div className="cards">
       
-      <div className="card" data-aos="fade-down" data-aos-duration="2200">
+      <div className="card" data-aos="fade-up" data-aos-duration="1200">
         <i className="fa fa-laptop" />
         <h3>Web Development</h3>
-        <p>i)ReactJs ii)Html iii)CSS iv)Bootstrap v)Javascript
-          vi)Python vii)PHP
+        <p>i) ReactJs ii) Html iii) CSS iv) Bootstrap v) Javascript
+          vi) Python 
         </p>
       </div>
-      <div className="card" data-aos="zoom-in" data-aos-duration="2200">
+      <div className="card" data-aos="fade-up" data-aos-duration="1200">
         <i className="fa fa-pencil-square-o" />
         <h3>Graphics Design</h3>
-        <p>i)Adobe Photoshop <br /> ii)Adobe Illustrator</p>
+        <p>i) Adobe Photoshop <br /> ii) Adobe Illustrator</p>
       </div>
-      <div className="card" data-aos="fade-up" data-aos-duration="2200">
+      <div className="card" data-aos="fade-up" data-aos-duration="1200">
         <i className="fa fa-file-text-o" />
-        <h3>Microsoft Office</h3>
-        <p>i)Microsoft Word ii)Microsoft Exel iii)Microsoft Powerpoint</p>
+        <h3>Software Testing</h3>
+        <p>i) Manual Testing ii) Automation Testing iii) API Testing</p>
       </div>
     </div>
   </div>

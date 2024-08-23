@@ -15,38 +15,38 @@ class Project extends Component {
             <section className="products">
             <h2>My Projects</h2>
             <div className="all-products">
-              <div className="product" data-aos="fade-up" data-aos-duration="2500">
+              <div className="product" data-aos="fade-up" data-aos-duration="1500">
               <img src={p1} />
                 <div className="product-info">
-                  <h4 className="product-title">Personal Portfolio1</h4>
-                  <a className="product-btn" href="https://akib0078.github.io/Portfolio1/">
+                  <h4 className="product-title">Personal Portfolio</h4>
+                  <a className="product-btn" href="https://Akib078.github.io/JS_Portfolio_Project/">
                     Visit Here
                   </a>
                 </div>
               </div>
-              <div className="product" data-aos="fade-up" data-aos-duration="2500">
+              <div className="product" data-aos="fade-up" data-aos-duration="1500">
                 <img src={p2} />
                 <div className="product-info">
-                  <h4 className="product-title">Personal Portfolio2</h4>
-                  <a className="product-btn" href="https://akib0078.github.io/Portfolio2/">
+                  <h4 className="product-title">Automation</h4>
+                  <a className="product-btn" href="https://github.com/Akib078/Selenium_Project">
                     Visit Here
                   </a>
                 </div>
               </div>
-              <div className="product" data-aos="fade-up" data-aos-duration="2500">
+              <div className="product" data-aos="fade-up" data-aos-duration="1500">
               <img src={p3} />
                 <div className="product-info">
                   <h4 className="product-title">Resume Website</h4>
-                  <a className="product-btn" href="https://akib0078.github.io/Resume_Project/">
+                  <a className="product-btn" href="https://Akib078.github.io/Resume_Project/">
                     Visit Here
                   </a>
                 </div>
               </div>
-              <div className="product" data-aos="fade-up" data-aos-duration="2500">
+              <div className="product" data-aos="fade-up" data-aos-duration="1500">
               <img src={p4} />
                 <div className="product-info">
                   <h4 className="product-title">Restaurant Project</h4>
-                  <a className="product-btn" href="https://akib0078.github.io/Restaurant_Project/">
+                  <a className="product-btn" href="https://Akib078.github.io/Restaurant_Project/">
                     Visit Here
                   </a>
                 </div>

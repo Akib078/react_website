@@ -49,7 +49,8 @@
 .card{
     padding: 2rem;
     border-radius: 15px;
-    border: 1px solid #f5c104;
+    /* border: 1px solid #f5c104; */
+    box-shadow: rgba(255, 200, 19, 0.25) 0px 5px 15px 0px;
     background-color: white;
     width: 100%;
     text-align: center;
@@ -58,8 +59,9 @@
 .card:hover{
     padding: 2rem;
     border-radius: 15px;
-    border: 2px solid #f5c104;
-    background-color: #f5c104;
+    /* border: 2px solid #f5c104; */
+    background: rgb(245,193,4);
+background: linear-gradient(87deg, rgba(245,193,4,1) 9%, rgba(255,206,28,1) 50%, rgba(255,205,27,1) 100%);
     width: 100%;
     text-align: center;
 }

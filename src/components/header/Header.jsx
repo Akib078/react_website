@@ -6,7 +6,32 @@ import logo from "../pic/logo.png"
 
 
 function Header() {
+  useEffect(() => {
+    // Function to handle the scroll event
+    const handleScroll = () => {
+      const nav = document.querySelector(".nav");
 
+      if (nav) {
+        if (window.scrollY > 0) {
+          // Add the "nav__scroll" class when scrolling down
+          nav.classList.add("nav__scroll");
+        } else {
+          // Remove the "nav__scroll" class when scrolling to the top
+          nav.classList.remove("nav__scroll");
+        }
+      }
+    };
+
+    // Attach the scroll event listener when the component mounts
+    window.addEventListener("scroll", handleScroll);
+
+    // Clean up the event listener when the component unmounts
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []); // The empty dependency array ensures this effect runs only once
+
+  
   const handleScrollToSection = (sectionId) => {
     const section = document.getElementById(sectionId);
     if (section) {

@@ -55,14 +55,14 @@
     padding: 20px;
     max-width: 35%;
     width: 100%;
-    background: #24262b;
+    background-color: #24262b; 
     border-radius: 8px 0 0 10px;
     color: #fff;
 }
 
 .info_container .info_item{
     padding: 20px;
-    background: #2d2f35;
+    background: rgba(47, 49, 54, 0.8);
     border-radius: 10px;
     margin-bottom: 20px;
 }
@@ -136,7 +136,7 @@ form .form_control{
 
 .form_control:focus{
     border: 0.5px solid rgb(217, 217, 217);
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    box-shadow: rgba(255, 230, 88, 0.3) 0px 1px 2px 0px, rgba(255, 206, 47, 0.2) 0px 2px 6px 2px;
 }
 
 textarea{
@@ -150,7 +150,8 @@ textarea{
 }
 
 .btn button{
-    background: #f5c104;
+    background: rgb(245,193,4);
+    background: linear-gradient(152deg, rgba(245,193,4,1) 10%, rgba(255,209,39,1) 51%, rgba(255,207,25,1) 100%);
     border: 0;
     padding: 10px 20px;
     color: #fff;
@@ -164,8 +165,8 @@ textarea{
 .btn button:hover{
     background: #ffffff;
     color: #24262b;
-    border: 0.5px solid rgb(217, 217, 217);
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    /* border: 0.5px solid rgb(217, 217, 217); */
+    box-shadow: rgba(255, 187, 39, 0.35) 0px 5px 15px;
 }
 
 @media screen and (max-width: 1400px) {

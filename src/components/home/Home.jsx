@@ -20,12 +20,12 @@ const Home = () => {
   <div className="container">
     <img src={hero} alt="" />
     <div className="hero-text">
-      <h1 style={{color:"#24262b"}} data-aos="fade-right" data-aos-duration="1500">Hello! I am Akib.</h1>
-      <h1 style={{color:"#24262b"}}>A<span> <Typewriter words={["Graphics Designer.", "Web Developer.", "Digital Marketer."]} loop cursor cursorStyle='|' typeSpeed={70} deleteSpeed={50} delaySpeed={1000} /></span></h1>
-      <p data-aos="fade-right" data-aos-duration="2000">
+      <h1 style={{color:"#24262b"}} data-aos="fade-up" data-aos-duration="1500">Hello! I am Akib.</h1>
+      <h1 style={{color:"#24262b"}} data-aos="fade-up" data-aos-duration="1500">A<span> <Typewriter words={["Graphics Designer.", "Web Developer.", "Digital Marketer."]} loop cursor cursorStyle='|' typeSpeed={70} deleteSpeed={50} delaySpeed={1000} /></span></h1>
+      <p data-aos="fade-up" data-aos-duration="2000">
         Welcome to my personal portfolio. Hope you will like it!
       </p>
-      <a href={cv} download className="button" data-aos="fade-right" data-aos-duration="2500">My Resume</a>
+      <a href={cv} download className="button" data-aos="fade-up" data-aos-duration="2500">My Resume</a>
     </div>
   </div>
 </main>

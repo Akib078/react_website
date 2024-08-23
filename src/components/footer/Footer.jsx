@@ -46,16 +46,16 @@ const Footer = () => {
         <h4>Other Websites</h4>
         <ul>
           <li>
-            <a href="https://akib0078.github.io/Portfolio1/">Portfolio2</a>
+            <a href="https://Akib078.github.io/JS_Portfolio_Project/">Portfolio</a>
           </li>
           <li>
-            <a href="https://akib0078.github.io/Portfolio2/">Portfolio3</a>
+            <a href="https://github.com/Akib078/Selenium_Project">Automation</a>
           </li>
           <li>
-            <a href="https://akib0078.github.io/Resume_Project/">Resume</a>
+            <a href="https://Akib078.github.io/Resume_Project/">Resume</a>
           </li>
           <li>
-            <a href="https://akib0078.github.io/Restaurant_Project/">Restaurant</a>
+            <a href="https://Akib078.github.io/Restaurant_Project/">Restaurant</a>
           </li>
         </ul>
       </div>

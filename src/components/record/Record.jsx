@@ -14,7 +14,7 @@ const Record = () => {
   <div><h1 style={{textAlign:"center",color:"#f5c104",fontSize:"28px"}}>About</h1></div>
 <section className="timeline-section">
   <div className="timeline-items">
-    <div className="timeline-item" data-aos="fade-up" data-aos-duration="2200">
+    <div className="timeline-item" data-aos="fade-up" data-aos-duration="1000">
       <div className="timeline-dot" />
       <div className="timeline-date">Education</div>
       <div className="timeline-content">
@@ -25,7 +25,7 @@ const Record = () => {
         </p>
       </div>
     </div>
-    <div className="timeline-item" data-aos="fade-up" data-aos-duration="2200">
+    <div className="timeline-item" data-aos="fade-up" data-aos-duration="1000">
       <div className="timeline-dot" />
       <div className="timeline-date">Education</div>
       <div className="timeline-content">
@@ -36,7 +36,7 @@ const Record = () => {
         </p>
       </div>
     </div>
-    <div className="timeline-item" data-aos="fade-up" data-aos-duration="2200">
+    <div className="timeline-item" data-aos="fade-up" data-aos-duration="1000">
       <div className="timeline-dot" />
       <div className="timeline-date">Education</div>
       <div className="timeline-content">
@@ -47,36 +47,36 @@ const Record = () => {
         </p>
       </div>
     </div>
-    <div className="timeline-item" data-aos="fade-up" data-aos-duration="2200">
+    <div className="timeline-item" data-aos="fade-up" data-aos-duration="1000">
       <div className="timeline-dot" />
       <div className="timeline-date">Experience</div>
       <div className="timeline-content">
-      <h3>Assistant Director (IT)</h3>
-        <h4>2021 - 2023</h4>
+      <h3>SQA Internship</h3>
+        <h4>04/2024 - 06/2024</h4>
         <p>
-          Bracu Business Club, BizBee
+          A1QA Software Testing Company
         </p>
       </div>
     </div>
-    <div className="timeline-item" data-aos="fade-up" data-aos-duration="2200">
+    <div className="timeline-item" data-aos="fade-up" data-aos-duration="1000">
       <div className="timeline-dot" />
       <div className="timeline-date">Experience</div>
       <div className="timeline-content">
       <h3>Graphics Designer</h3>
-        <h4>2022 - 2023</h4>
+        <h4>10/2023 - 12/2023</h4>
         <p>
-          Shopnokuri and Chococharms
+          Japan Trading International
         </p>
       </div>
     </div>
-    <div className="timeline-item" data-aos="fade-up" data-aos-duration="2200">
+    <div className="timeline-item" data-aos="fade-up" data-aos-duration="1000">
       <div className="timeline-dot" />
       <div className="timeline-date">Experience</div>
       <div className="timeline-content">
-      <h3>General Member</h3>
-        <h4>2020 - 2020</h4>
+      <h3>Assistant Director (IT)</h3>
+        <h4>08/2021 - 06/2023</h4>
         <p>
-          Bracu Computer Club, BuCC
+          Bracu Business Club, BizBee
         </p>
       </div>
     </div>

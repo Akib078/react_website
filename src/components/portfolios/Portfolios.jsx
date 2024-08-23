@@ -41,7 +41,7 @@ function Portfolios() {
         </div>
         <div className="galleryContainer" >
           {
-            data.map((item)=> <div  key={item.id} className="galleryItem" data-aos="zoom-in" data-aos-duration="2000"><img src={item.image } />
+            data.map((item)=> <div  key={item.id} className="galleryItem" data-aos="zoom-in" data-aos-duration="1600"><img src={item.image } />
             </div> )
             
           }
