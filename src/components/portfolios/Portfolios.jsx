@@ -27,7 +27,7 @@ function Portfolios() {
   return (
 <body style={{marginTop:"200px"}} id="portfolio">
 <div className="containerp">
-    <h1 style={{color:"#f5c104", fontSize:"28px"}}>Portfolio</h1>
+    <h1 style={{color:"#f5c104", fontSize:"28px"}}>Graphics Design</h1>
     </div><br></br><br></br>
     <div className="App">
       <div className="galleryWrapper">

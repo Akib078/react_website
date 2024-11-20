@@ -16,7 +16,7 @@ const Record = () => {
   <div className="timeline-items">
     <div className="timeline-item" data-aos="fade-up" data-aos-duration="1000">
       <div className="timeline-dot" />
-      <div className="timeline-date">Education</div>
+      <div className="timeline-date"> <h3>Education</h3></div>
       <div className="timeline-content">
         <h3>Bachelors Science in CSE</h3>
         <h4>2019 - 2023</h4>
@@ -27,7 +27,6 @@ const Record = () => {
     </div>
     <div className="timeline-item" data-aos="fade-up" data-aos-duration="1000">
       <div className="timeline-dot" />
-      <div className="timeline-date">Education</div>
       <div className="timeline-content">
         <h3>Higher School Certificate</h3>
         <h4>2016 - 2018</h4>
@@ -38,7 +37,6 @@ const Record = () => {
     </div>
     <div className="timeline-item" data-aos="fade-up" data-aos-duration="1000">
       <div className="timeline-dot" />
-      <div className="timeline-date">Education</div>
       <div className="timeline-content">
       <h3>Secondary School Certificate</h3>
         <h4>2008 - 2016</h4>
@@ -49,7 +47,7 @@ const Record = () => {
     </div>
     <div className="timeline-item" data-aos="fade-up" data-aos-duration="1000">
       <div className="timeline-dot" />
-      <div className="timeline-date">Experience</div>
+      <div className="timeline-date"><h3>Experience</h3></div>
       <div className="timeline-content">
       <h3>SQA Internship</h3>
         <h4>04/2024 - 06/2024</h4>
@@ -60,7 +58,6 @@ const Record = () => {
     </div>
     <div className="timeline-item" data-aos="fade-up" data-aos-duration="1000">
       <div className="timeline-dot" />
-      <div className="timeline-date">Experience</div>
       <div className="timeline-content">
       <h3>Graphics Designer</h3>
         <h4>10/2023 - 12/2023</h4>
@@ -71,7 +68,6 @@ const Record = () => {
     </div>
     <div className="timeline-item" data-aos="fade-up" data-aos-duration="1000">
       <div className="timeline-dot" />
-      <div className="timeline-date">Experience</div>
       <div className="timeline-content">
       <h3>Assistant Director (IT)</h3>
         <h4>08/2021 - 06/2023</h4>

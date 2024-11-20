@@ -23,12 +23,12 @@ const Service = () => {
       <div className="card" data-aos="fade-up" data-aos-duration="1200">
         <i className="fa fa-pencil-square-o" />
         <h3>Graphics Design</h3>
-        <p>i) Adobe Photoshop <br /> ii) Adobe Illustrator</p>
+        <p>i) Adobe Photoshop ii) Adobe Illustrator iii) Figma iv) Canva</p>
       </div>
       <div className="card" data-aos="fade-up" data-aos-duration="1200">
         <i className="fa fa-file-text-o" />
         <h3>Software Testing</h3>
-        <p>i) Manual Testing ii) Automation Testing iii) API Testing</p>
+        <p>i) Manual Testing ii) Automation Testing iii) API Testing iv) Performance Testing</p>
       </div>
     </div>
   </div>
