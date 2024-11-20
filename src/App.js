@@ -18,8 +18,8 @@ function App() {
       </main>
       <Record></Record>
       <Service></Service>
-      <Portfolios></Portfolios>
       <Project></Project>
+      <Portfolios></Portfolios>
      
       <Contact></Contact>
       <Footer></Footer>
